@@ -1,8 +1,8 @@
 var squareMap = "<div class='square'></div>";
 var lineMap = "<div class='line'></div>";
 
-const WIDTH = 50;
-const HEIGHT = 1;
+const WIDTH = 25;
+const HEIGHT = 25;
 
 function createMap(height,width) {
 	for (var i = 0; i < height; ++i ) {
@@ -94,7 +94,7 @@ function createMap(height,width) {
 				return(+getRGB($(a).css('background-color'))[0] > +getRGB($(b).css('background-color'))[0]);
 			});
 */
-
+/*
 			all = $('.square');
 			total = $(all).length - 1;
 			while (!fim && total > 0) {
@@ -109,7 +109,7 @@ function createMap(height,width) {
 						$('#tmp').remove();
 					}
 				}
-			}
+			}*/
 			all = $('.square');
 			total = $(all).length - 1;
 			while (!fim && total > 0) {
