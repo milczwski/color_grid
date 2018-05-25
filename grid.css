@@ -1,0 +1,36 @@
+.square {
+	/*border-width: 1px 1px 0px 0px;
+	border-color: black;
+	border-style: solid;*/
+	width: 15px;
+	height: 15px;
+	float: left;
+}
+
+.square:hover {
+	background-color: #aaa;
+}
+
+.square:action {
+	background-color: #444;
+}
+
+
+.corner {/*
+	border-width: 1px 1px 1px 1px;
+	border-color: black;
+	border-style: solid;*/
+}
+
+.line {
+	clear: left;
+}
+
+.square:first-child {/*
+	border-left-width: 1px;
+	border-style: solid;*/
+}
+
+.line:last-child .square {/*
+	border-bottom-width: 1px;*/
+}
