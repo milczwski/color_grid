@@ -1,8 +1,8 @@
 var squareMap = "<div class='square'></div>";
 var lineMap = "<div class='line'></div>";
 
-const WIDTH = 25;
-const HEIGHT = 25;
+const WIDTH = 15;
+const HEIGHT = 15;
 
 function createMap(height,width) {
 	for (var i = 0; i < height; ++i ) {
