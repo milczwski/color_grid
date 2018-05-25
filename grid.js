@@ -133,9 +133,9 @@ function createMap(height,width) {
 	function color(){
 		//$('.square').eq(Math.floor(Math.random()*(HEIGHT*WIDTH) + 1)).css('background-color','rgb('+ Math.floor(Math.random()*255) + ','+ Math.floor(Math.random()*255) +','+ Math.floor(Math.random()*255)+')');
 		var test;
-		test = $('.square:not(.filled)').eq(Math.floor(Math.random()*($('.square:not(.filled)').length ))).css('background-color','rgb('+ Math.floor(Math.random()*255) + ','+ Math.floor(Math.random()*255) +','+ 0 +')');
-		//var value = Math.floor(Math.random()*255);
-		//test = $('.square:not(.filled)').eq(Math.floor(Math.random()*($('.square:not(.filled)').length ))).css('background-color','rgb('+ value + ','+ value +','+ value +')');
+		//test = $('.square:not(.filled)').eq(Math.floor(Math.random()*($('.square:not(.filled)').length ))).css('background-color','rgb('+ Math.floor(Math.random()*255) + ','+ Math.floor(Math.random()*255) +','+ 0 +')');
+		var value = Math.floor(Math.random()*255);
+		test = $('.square:not(.filled)').eq(Math.floor(Math.random()*($('.square:not(.filled)').length ))).css('background-color','rgb('+ value + ','+ value +','+ value +')');
 		test.addClass('filled');
 		if ($('.square:not(.filled)').length > 0) {
 			setTimeout(color,0);
